@@ -1,0 +1,16 @@
+<template>
+  <form submit.trigger="getData()">
+    <div>
+      <input type="text" value.bind="firstName">
+    </div>
+    <div>
+      <input type="text" value.one-way="lastName">
+    </div>
+    <div>
+      <p>${fullName}</p>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+      </div>
+  </form>
+</template>
